@@ -12,6 +12,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Image src="https://source.unsplash.com/800x533/?India" height={533} width={800} />
+      <Image src="https://source.unsplash.com/800x533/?Bahrain" height={533} width={800} />
+      <Image src="https://source.unsplash.com/800x533/?Dubai" height={533} width={800} />
+      <Image src="https://source.unsplash.com/800x533/?Hawaii" height={533} width={800} />
+      <Image src="https://source.unsplash.com/800x533/?Turkey" height={533} width={800} />
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
